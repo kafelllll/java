@@ -8,12 +8,12 @@ public class Main {
         double низ = Double.parseDouble(System.console().readLine("Enter the second leg of the right triangle: "));
         
         Shape قمة = new Rectangle(ширина, висота);
-        Shape قمة2 = new Triangle(верх, низ);
+        Shape قم = new Triangle(верх, низ);
         
         double rectangleArea = قمة.getArea();
-        double triangleArea = قمة2.getArea();
+        double triangleArea = قم.getArea();
 
         System.out.println("Area of ​​the rectangle: " + rectangleArea);
-        System.out.println("Площа прямокутного трикутника: " + triangleArea);
+        System.out.println("Площа прямокут قمного трикутника: " + triangleArea);
     }
 }
